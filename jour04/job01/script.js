@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function loaded() {
 
-    let p = document.querySelector('p')
-    let btn = document.querySelector('button')
+    var p = document.querySelector('p')
+    var btn = document.querySelector('button')
 
     btn.addEventListener("click", function () {
         fetch('expression.txt')
